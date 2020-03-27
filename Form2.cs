@@ -9,23 +9,24 @@ using System.Windows.Forms;
 
 namespace Descartes_Square
 {
-    public partial class Greeting : Form
+    public partial class MainWindow : Form
     {
-        public Greeting()
+        public MainWindow()
         {
             InitializeComponent();
         }
+
         private void Exit_Click(object sender, EventArgs e)
         {
             Close();
         }
         Point lastPoint;
-        private void label2_MouseDown(object sender, MouseEventArgs e)
+        private void MainWindow_MouseDown(object sender, MouseEventArgs e)
         {
             lastPoint = new Point(e.X, e.Y);
         }
 
-        private void label2_MouseMove(object sender, MouseEventArgs e)
+        private void MainWindow_MouseMove(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
             {
@@ -33,13 +34,13 @@ namespace Descartes_Square
                 this.Top += e.Y - lastPoint.Y;
             }
         }
-
-        private void Strath_Click(object sender, EventArgs e)
+        string Beacon = "";
+        private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            MainWindow Greeting = new MainWindow();
+            Beacon = "button1";
+            EnterAResponse Greeting = new EnterAResponse();
             Greeting.ShowDialog();
-            this.Close();
         }
+        
     }
 }
