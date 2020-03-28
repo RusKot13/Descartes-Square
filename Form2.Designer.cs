@@ -88,8 +88,8 @@
             this.PlusIfIDo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.PlusIfIDo.Cursor = System.Windows.Forms.Cursors.Help;
             this.PlusIfIDo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PlusIfIDo.Font = new System.Drawing.Font("Lucida Sans Unicode", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PlusIfIDo.ForeColor = System.Drawing.Color.Black;
+            this.PlusIfIDo.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PlusIfIDo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.PlusIfIDo.Location = new System.Drawing.Point(12, 20);
             this.PlusIfIDo.Name = "PlusIfIDo";
             this.PlusIfIDo.Size = new System.Drawing.Size(355, 219);
@@ -101,9 +101,9 @@
             this.ConsIfIDo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.ConsIfIDo.Cursor = System.Windows.Forms.Cursors.Help;
             this.ConsIfIDo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ConsIfIDo.Font = new System.Drawing.Font("Lucida Sans Unicode", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.ConsIfIDo.ForeColor = System.Drawing.Color.Black;
-            this.ConsIfIDo.Location = new System.Drawing.Point(12, 239);
+            this.ConsIfIDo.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ConsIfIDo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.ConsIfIDo.Location = new System.Drawing.Point(12, 236);
             this.ConsIfIDo.Name = "ConsIfIDo";
             this.ConsIfIDo.Size = new System.Drawing.Size(355, 219);
             this.ConsIfIDo.TabIndex = 17;
@@ -114,8 +114,8 @@
             this.PlusIfIDontDoIt.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.PlusIfIDontDoIt.Cursor = System.Windows.Forms.Cursors.Help;
             this.PlusIfIDontDoIt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PlusIfIDontDoIt.Font = new System.Drawing.Font("Lucida Sans Unicode", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.PlusIfIDontDoIt.ForeColor = System.Drawing.Color.Black;
+            this.PlusIfIDontDoIt.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PlusIfIDontDoIt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.PlusIfIDontDoIt.Location = new System.Drawing.Point(373, 20);
             this.PlusIfIDontDoIt.Name = "PlusIfIDontDoIt";
             this.PlusIfIDontDoIt.Size = new System.Drawing.Size(355, 219);
@@ -127,8 +127,8 @@
             this.ConsIfIDontDoIt.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.ConsIfIDontDoIt.Cursor = System.Windows.Forms.Cursors.Help;
             this.ConsIfIDontDoIt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ConsIfIDontDoIt.Font = new System.Drawing.Font("Lucida Sans Unicode", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.ConsIfIDontDoIt.ForeColor = System.Drawing.Color.Black;
+            this.ConsIfIDontDoIt.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ConsIfIDontDoIt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.ConsIfIDontDoIt.Location = new System.Drawing.Point(373, 236);
             this.ConsIfIDontDoIt.Name = "ConsIfIDontDoIt";
             this.ConsIfIDontDoIt.Size = new System.Drawing.Size(355, 219);
@@ -163,6 +163,7 @@
             this.button2.TabIndex = 25;
             this.button2.Text = "Плюс если я это не сделаю";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -177,6 +178,7 @@
             this.button3.TabIndex = 26;
             this.button3.Text = "Минусы если я это сделаю";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -191,6 +193,7 @@
             this.button4.TabIndex = 27;
             this.button4.Text = "Минусы если я это не сделаю";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Strath
             // 
@@ -205,6 +208,7 @@
             this.Strath.TabIndex = 29;
             this.Strath.Text = "Получить ответ. ";
             this.Strath.UseVisualStyleBackColor = false;
+            this.Strath.Click += new System.EventHandler(this.Strath_Click);
             // 
             // pictureBox4
             // 

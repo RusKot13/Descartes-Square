@@ -29,12 +29,11 @@ namespace Descartes_Square
                 this.Top += e.Y - lastPoint.Y;
             }
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        string Answer;
+        private void button2_Click(object sender, EventArgs e)
         {
+            this.Close();
 
-
-            
         }
     }
 }

@@ -11,6 +11,7 @@ namespace Descartes_Square
 {
     public partial class Greeting : Form
     {
+
         public Greeting()
         {
             InitializeComponent();
