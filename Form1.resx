@@ -117,8 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Здравствуй, дорогой пользователь. Мы рады, что вы выбрали наше приложение Descartes Square
+
+Каждый из нас постоянно сталкивается с необходимостью принятия решений.
+
+И если простые решения даются нам относительно легко, то с серьезными возникают определенные сложности.
+
+Для решения данной проблемы было создано наша программа Descartes Square
+ </value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA1MAAAPOCAYAAADqQEIBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAP+6SURBVHhe7P19zK5ned/5zgbMWwlKohYSAhkoL8tkY8KkuFgwuBhNjI0MdlDkOFigsLMcG9wY
@@ -6953,16 +6963,6 @@
         mqZpmqZpmt/GIo/76uv9VwrApmmapmmapvlsFrnaV199nbnSIWqapmmapmk+jkWW9fVp1z/+8b/tqZ1T
         Ah5GAgAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Здравствуй, дорогой пользователь. Мы рады, что вы выбрали наше приложение Descartes Square
-
-Каждый из нас постоянно сталкивается с необходимостью принятия решений.
-
-И если простые решения даются нам относительно легко, то с серьезными возникают определенные сложности.
-
-Для решения данной проблемы было создано наша программа Descartes Square
- </value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

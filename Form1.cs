@@ -11,7 +11,6 @@ namespace Descartes_Square
 {
     public partial class Greeting : Form
     {
-
         public Greeting()
         {
             InitializeComponent();
@@ -25,7 +24,6 @@ namespace Descartes_Square
         {
             lastPoint = new Point(e.X, e.Y);
         }
-
         private void label2_MouseMove(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
@@ -34,7 +32,6 @@ namespace Descartes_Square
                 this.Top += e.Y - lastPoint.Y;
             }
         }
-
         private void Strath_Click(object sender, EventArgs e)
         {
             this.Hide();
