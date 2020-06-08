@@ -11,8 +11,7 @@ namespace Descartes_Square
 {
     public partial class MainWindow : Form
     {
-        public int PlusIfIDo1, PlusIfIDontDoIt1, ConsIfIDo1, ConsIfIDontDoIt1;
-        public List<string> PlusIfIDoList1 = new List<string>();
+        public int PlusIfIDo1, PlusIfIDontDoIt1, ConsIfIDo1, ConsIfIDontDoIt1;        
         public MainWindow()
         {
             InitializeComponent();
@@ -48,7 +47,7 @@ namespace Descartes_Square
             }
             else
             {
-                label1.Text = "Мы не советуем вам это делаетсь.";
+                label1.Text = "Мы не советуем вам это делать.";
             }
         }
         private void button2_Click_1(object sender, EventArgs e)//
