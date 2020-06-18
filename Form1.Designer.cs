@@ -45,7 +45,7 @@
             this.Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Exit.Font = new System.Drawing.Font("Perpetua", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Exit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.Exit.Location = new System.Drawing.Point(584, 12);
+            this.Exit.Location = new System.Drawing.Point(690, 12);
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(42, 38);
             this.Exit.TabIndex = 0;
