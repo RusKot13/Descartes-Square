@@ -283,7 +283,8 @@ namespace Descartes_Square
             PlusIfIDo1 = 0; PlusIfIDontDoIt1 = 0; ConsIfIDo1 = 0; ConsIfIDontDoIt1 = 0;
             PlusIfIDo.Text = ""; PlusIfIDontDoIt.Text = ""; ConsIfIDo.Text = ""; ConsIfIDontDoIt.Text = "";
             label1.Text = "Ответьте на каждой из 4 вопросов. Очень важно дать на эти вопросы максимальное количество ответов." +
-                " Сверху записывайте все плюсы данного решения а  снизу все минусы.";
+                " Сверху записывайте все плюсы данного решения а  снизу все минусы.После того как вы закончели отвечать нажмите “Старт” После того как вы записали ответ нажмите" +
+                " Enter для написания еще одного ответа в случае необходимости";
             Greeting gr = new Greeting();
             this.Hide();
             gr.ShowDialog();
@@ -295,7 +296,9 @@ namespace Descartes_Square
             PlusIfIDo1 = 0; PlusIfIDontDoIt1 = 0; ConsIfIDo1 = 0; ConsIfIDontDoIt1 = 0;
             PlusIfIDo.Text = ""; PlusIfIDontDoIt.Text = ""; ConsIfIDo.Text = ""; ConsIfIDontDoIt.Text = "";
             label1.Text = "Ответьте на каждой из 4 вопросов. Очень важно дать на эти вопросы максимальное количество ответов." +
-                " Сверху записывайте все плюсы данного решения а  снизу все минусы.";
+                " Сверху записывайте все плюсы данного решения а  снизу все минусы.После того как вы закончели отвечать нажмите “Старт” После того как вы записали ответ нажмите" +
+                " Enter для написания еще одного ответа в случае необходимости";
+;
         }
         private void label2_MouseMove(object sender, MouseEventArgs e)
         {
