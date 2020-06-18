@@ -22,5 +22,53 @@ namespace Descartes_Square.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Пуст")]
+        public string Sav1 {
+            get {
+                return ((string)(this["Sav1"]));
+            }
+            set {
+                this["Sav1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Пуст")]
+        public string Sav2 {
+            get {
+                return ((string)(this["Sav2"]));
+            }
+            set {
+                this["Sav2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Пуст")]
+        public string Sav3 {
+            get {
+                return ((string)(this["Sav3"]));
+            }
+            set {
+                this["Sav3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Пуст")]
+        public string Sav4 {
+            get {
+                return ((string)(this["Sav4"]));
+            }
+            set {
+                this["Sav4"] = value;
+            }
+        }
     }
 }

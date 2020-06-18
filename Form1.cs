@@ -34,10 +34,27 @@ namespace Descartes_Square
         }
         private void Strath_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            MainWindow Greeting = new MainWindow();
-            Greeting.ShowDialog();
-            this.Close();
+
+            if (textBox1.Text != "" && textBox1.Text != "Введите проблему") 
+            {
+                this.Hide();
+                MainWindow Greeting = new MainWindow();
+                Greeting.s = textBox1.Text;
+                Greeting.ShowDialog();
+                this.Close();
+            }
+            else           
+                textBox1.Text = "Введите проблему";           
+        }
+
+        private void textBox1_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (textBox1.Text == "Введите проблему")
+            textBox1.Text = "";
+        }
+
+        public void button1_Click(object sender, EventArgs e)
+        {         
         }
     }
 }
